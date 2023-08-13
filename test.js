@@ -43,7 +43,7 @@ links.forEach((link) => {
 
 
 function getRandomCharacter() {
-    const characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    const characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const randomIndex = Math.floor(Math.random() * characters.length);
     return characters[randomIndex];
 }
